@@ -68,7 +68,7 @@ namespace HomeAutomator
             }
             activeTimer = new Timer(ActiveTimerTick, coffeeRelayStatus, Timeout.Infinite, Timeout.Infinite);
 
-            PlayAudio("Hello there.. This is your coffee maker. I'm standing by and ready to accept your commands in just few seconds.");
+            PlayAudio("Hello there.. This is your Home Automator. I'm standing by and ready to accept your commands. Use the web interface to perform appropriate actions. I can also listen to voice commands.");
 
 
         }
